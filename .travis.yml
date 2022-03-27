@@ -8,3 +8,6 @@ before_install:
 
 script:
   - docker run -e CI=true kamal7725/docker-react npm run test -- --coverage
+
+addons:
+  ssh_known_host: 167.71.184.200
